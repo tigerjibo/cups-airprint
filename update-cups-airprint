@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# remove old files airprint services
+rm /etc/avahi/services/AirPrint-*.service
+
+# genereate new aitprint services
+./airprint-generate.py -d /etc/avahi/services/
+
+# restart avahi daemon
+service avahi-daemon restart

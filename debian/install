@@ -1,0 +1,4 @@
+airprint.convs 		/usr/share/cups/mime/
+airprint.types		/usr/share/cups/mime/
+airprint-generate.py	/usr/bin/airprint-generate
+update-cups-airprint	/usr/sbin/

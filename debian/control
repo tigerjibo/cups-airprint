@@ -1,0 +1,12 @@
+Source: cups-airprint
+Section: net
+Priority: extra
+Maintainer: Marco Scholl <develop@marco-scholl.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/traxanos/cups-airprint
+
+Package: cups-airprint
+Architecture: all
+Depends: ${misc:Depends}, python-cups, bash, avahi-daemon
+Description: Extend CUPS and generate Avahi services for each printer
